@@ -1,23 +1,22 @@
-# Docker Setup and User Management
+# `doc1.sh` Script Guide
 
-This repository contains scripts for Docker installation, user management, and system checks.
+## Overview
+This repository contains a shell script named `doc1.sh`, which automates certain tasks and processes. The script is designed to simplify operations that would otherwise require manual intervention. This document provides an overview of how to use the script, along with possible errors and troubleshooting steps.
 
 ## Prerequisites
-- Ubuntu or any Debian-based system.
-- Root privileges or `sudo` access.
-- Virtual machine or physical server running Ubuntu (for VM setup).
+Before running the script, ensure that you meet the following requirements:
+- You have a Unix-based system (Linux or macOS).
+- You have bash shell installed.
+- You have the necessary permissions to execute the script.
 
-## Scripts
-1. **docker-install.sh** - Installs Docker.
-2. **user-management.sh** - Manages users and groups.
-3. **system-check.sh** - Verifies the installation of Docker and systemctl.
+## How to Run the Script
 
-## Instructions
-- Clone this repository: `git clone https://github.com/yourusername/docker-setup.git`
-- Navigate into the directory: `cd docker-setup`
-- Run the scripts as per your need.
+### Step 1: Download the Script
+Ensure that the `doc1.sh` script is available in your system. You can download or clone the repository containing the script:
 
-## VM Setup (Ubuntu)
-Follow the `vm-setup.md` file for setting up on a Virtual Machine.
+[Repository Link](<insert-repository-url>)
 
-
+### Step 2: Grant Execution Permission
+Make the script executable by running the following command in the terminal:
+```bash
+chmod +x doc1.sh
