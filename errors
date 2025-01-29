@@ -1,0 +1,18 @@
+# Error: Permission Denied on Docker Socket
+
+permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.45/containers/json": dial unix /var/run/docker.sock: connect: permission denied
+
+
+**Cause:**
+This error occurs when the current user does not have permission to access the Docker socket.
+
+**Solution:**
+
+1. Add the current user to the Docker group:
+   ```bash
+  - sudo usermod -aG docker $USER
+2.Apply the new group membership:
+  - newgrp docker
+3.If the issue persists, change the permissions of the Docker socket:
+  - sudo chown root:docker /var/run/docker.sock
+  - sudo chmod 660 /var/run/docker.sock
