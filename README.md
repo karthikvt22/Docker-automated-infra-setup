@@ -28,7 +28,8 @@ Execute the script by typing the following command:
 
 ##Verifying Infrastructure Setup
 
-To ensure that the infrastructure is set up and running properly, you should permit inbound traffic on port 80 (HTTP) if not already done. This is important for confirming that the HTTP server or service is reachable and functioning.
+To ensure that the infrastructure is set up and running properly.
+you should permit inbound traffic on port 80 (HTTP) if not already done. This is important for confirming that the HTTP server or service is reachable and functioning.
 
 -AWS EC2 (Elastic Compute Cloud)
 
