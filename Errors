@@ -25,5 +25,8 @@ Follow the steps below to resolve the issue:
 - Problem: The script tried to access a network resource, but the network was unreachable.
 - Way out:Solution: Check your network connection, ensure that the system can access the external resources (e.g., via ping or curl), and verify the correct IP/hostname configuration.
 
+To Check Docker Service Status -- sudo systemctl status docker
+To enable Docker to start on boot -- sudo systemctl enable docker
+To Start with if docker is not running -- sudo systemctl start docker
 
 
