@@ -21,12 +21,11 @@ Make the script executable by running the following command in the terminal:
 
 chmod +x doc1.sh
 
-
 ## Step 3: Run the Script
 Execute the script by typing the following command:
 ./doc1.sh
 
-##Verifying Infrastructure Setup
+## Verifying Infrastructure Setup
 
 To ensure that the infrastructure is set up and running properly.
 -You should permit inbound traffic on port 80 (HTTP) if not already done.
