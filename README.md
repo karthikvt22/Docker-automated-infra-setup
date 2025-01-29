@@ -20,3 +20,5 @@ Check out the project repository here: [Docker Automated Infra Setup](https://gi
 Make the script executable by running the following command in the terminal:
 ```bash
 chmod +x doc1.sh
+
+### Step 3: Run the Script
