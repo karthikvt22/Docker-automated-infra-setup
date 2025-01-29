@@ -13,8 +13,8 @@ Before running the script, ensure that you meet the following requirements:
 
 ### Step 1: Download the Script
 Ensure that the `doc1.sh` script is available in your system. You can download or clone the repository containing the script:
+Check out the project repository here: [Docker Automated Infra Setup](https://github.com/karthikvt22/Docker-automated-infra-setup)
 
-[Repository Link](<i[nsert-repository-url](https://github.com/karthikvt22/Docker-automated-infra-setup)>)
 
 ### Step 2: Grant Execution Permission
 Make the script executable by running the following command in the terminal:
