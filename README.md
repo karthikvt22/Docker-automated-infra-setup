@@ -1,7 +1,7 @@
 # `doc1.sh` Script Guide
 
 ## Overview
-This repository contains a shell script named `doc1.sh`, which automates certain tasks and processes. The script is designed to simplify operations that would otherwise require manual intervention. This document provides an overview of how to use the script, along with possible errors and troubleshooting steps.
+This repository contains a shell script named `doc1.sh`,which automates certain tasks and processes. The script is designed to simplify operations that would otherwise require manual intervention. This document provides an overview of how to use the script, along with possible errors and troubleshooting steps.
 
 ## Prerequisites
 Before running the script, ensure that you meet the following requirements:
