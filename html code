@@ -1,0 +1,13 @@
+# Create a simple index.html file
+echo "Creating index.html..."
+cat <<EOF > index.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to Nginx</title>
+</head>
+<body>
+    <h1>Hello from your automated infrastructure setup!</h1>
+</body>
+</html>
+EOF
