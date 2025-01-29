@@ -11,8 +11,12 @@ This error occurs when the current user does not have permission to access the D
 1. Add the current user to the Docker group:
    ```bash
   - sudo usermod -aG docker $USER
+
 2.Apply the new group membership:
   - newgrp docker
+
 3.If the issue persists, change the permissions of the Docker socket:
   - sudo chown root:docker /var/run/docker.sock
   - sudo chmod 660 /var/run/docker.sock
+4. Verify the fix by command
+   - docker ps
