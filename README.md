@@ -31,5 +31,5 @@ To ensure that the infrastructure is set up and running properly.
 -You should permit inbound traffic on port 80 (HTTP) if not already done.
 -This is important for confirming that the HTTP server or service is reachable and functioning.
 
-Check the errors File: If you encounter any other errors during the script execution, you can find detailed error logs in the repository’s errors file. This file contains specific error messages and suggested fixes to help you resolve issues more effectively.
+Check the errors File : If you encounter any other errors during the script execution, you can find detailed error logs in the repository’s errors file. This file contains specific error messages and suggested fixes to help you resolve issues more effectively.
 
