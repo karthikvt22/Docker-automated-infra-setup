@@ -66,4 +66,4 @@ docker ps
 
 # Display access information
 echo "Setup complete! Access the web server at http://localhost:$PORT"
-qrt4eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeezxcvzxcvzxcvzxcvzxcvzxcvzxcvzxcvzxcvzxcvzxcvzxcvzxcvzxcvzxcvzxcvet4
+
