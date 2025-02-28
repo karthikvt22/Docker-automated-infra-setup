@@ -63,7 +63,7 @@ sudo ufw allow $PORT/tcp
 # Display container status
 echo "Checking container status..."
 docker ps
-
+iuhdeiwuhfuygfbfiufejflieufbyfbwjbuin iue euhewuew rhriewfnew fiuerfrer
 # Display access information
 echo "Setup complete! Access the web server at http://localhost:$PORT"
 
